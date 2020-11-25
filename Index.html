@@ -1,103 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Who am I</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
+<html lang="en" dir="ltr">
+  <head>
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+    <!-- Used by keyboard -->
+    <meta charset="utf-8">
 
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
+    <title>Learning HTML</title>
 
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
-}
+    <!-- Used by Browser or Google Search-->
+    <meta name="author" content="Baltej Malhi">
+    <meta name="description" content="Learning HTML by building a simple Website">
+    <meta name="keywords" content="boilerplate, starter code, HTML, learning">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
 
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
+    <!-- meta http-equiv="default-style" content=""--> <!-- content matches css link exactly-->
 
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
-}
+    <!-- Other meta attributes to be aware of -->
 
-/* Clear floats after the columns */
-section:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+    <!-- meta http-equiv="refresh" content="30"-->
+    <!-- Content forces a Internet Request to refresh webpage every "time value in seconds" -->
+    <!-- Use this when refreshes are needed -->
 
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
+    <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
+    <!-- Already specified in the charset above-->
+  </head>
+  <body>
+    <header><h1>Header Title</h1></header>
+      <nav><h1>Navigation</h1></nav>
+      <aside><p>This is the aside space.</p></aside>
+      <section>
+        <h3>Section 1</h3>
+        <article>
+          <p>This is article 1 in section 1.</p>
+        </article>
+        <article>
+          <p>This is article 2 in section 1.</p>
+        </article>
+      </section>
+      <section>
+        <h3>Section 2</h3>
+        <article>
+          <p>This is article 1 in section 2.</p>
+        </article>
+        <article>
+          <p>This is article 2 in section 2.</p>
+        </article>
+      </section>
+  </body>
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>
-</head>
-<body>
+  <footer>
+    <blockquote cite="https://www.brainyquote.com/quotes/michael_jordan_167382">
+      <!-- Date Accessed 20201120-->
+    </blockquote>
+    <p>
+      <strong>"Some people want it to happen, some wish it would happen, other make it happen."</strong>
+      <em><a href="https://www.brainyquote.com/quotes/michael_jordan_167382" target="_blank">
+         - Michael Jordan</a>
+      </em>
+    </p>
+    <p>&copy Mark Mercer, powered by MercersKitchen in GitHub</p>
 
+  </footer>
 
-<header>
-  <h2>Who am I</h2>
-</header>
-
-<section>
-  <nav>
-    <ul>
-      <li><a href="#">London</a></li>
-      <li><a href="#">Paris</a></li>
-      <li><a href="#">Tokyo</a></li>
-    </ul>
-  </nav>
-
-  <article>
-    <h1>Who am I</h1>
-    <p>My name is Baltej Singh Malhi. I am a grade 10 student at the school of W.P Wagner, currently taking an online course of introductory computer science. I like to play sports, my favourite sport is basketball, I also enjoy watching basketball like the NBA as well. I also enjoy playing video games with my friends, my favourite video game is Call of duty, I also play other games like Minecraft and Nba2k. I also like to spend time with family, they are amazing people and will always have your back.</p>
-  </article>
-  <article>
-    <h1> My career plans</h1>
-    <p>My career plans. I have just seriously begun thinking about my career plans for the future. I don't know exactly what I wanna be in life just yet but my plans are to start working at any regular minimum wage job that I can do. Once I graduate I don't know just yet what I wanna do in university but I will figure it out, I was thinking of something to do with real estate. After that I wanna save some money and create my own business.
-</P>
-</section>
-
-<footer>
-  <p>Footer</p>
-</footer>
-
-</body>
 </html>
