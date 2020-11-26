@@ -1,32 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Who am I</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
+
+<html lang="en" dir="ltr">
+
+  <head>
+    <title>Who am I</title>
+
+    <meta name="author" content="Baltej Malhi">
+    <meta name="description" content="HTML Lessons">
+    <meta name="keywords" content="HTML, meta data, inline CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
 
-header {
+.header {
   background-color: #33adff;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
   font-size: 35px;
   color: white;
 }
 
 
-nav {
+.menu {
   float: left;
-  width: 30%;
-  height: 375px;
+  width: 20%;
+  height: 450px;
   background: #99d6ff;
   padding: 20px;
 }
@@ -37,25 +43,26 @@ nav ul {
   padding: 0;
 }
 
-article {
+.main {
   float: left;
   padding: 20px;
-  width: 70%;
+  width: 40%;
   background-color: #e6f5ff;
-  height: auto;
+  height: 450px;
 }
 
-
-section:after {
-  content: "";
-  display: table;
-  clear: both;
+.aside {
+  float: left;
+  padding: 20px;
+  width: 40%;
+  background-color: #99d6ff;
+  height: 450px;
 }
 
 
 footer {
   background-color: #33adff;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   color: white;
 }
@@ -72,29 +79,31 @@ footer {
 <body>
 
 
-<header>
-  <h2>Who am I</h2>
-</header>
+<div class="header">
+  <header><h2>Who am I</h2></header>
+</div>
 
-<section>
-  <nav>
+<div class="menu">
     <ul>
       <li><a href="#">click here</a></li>
       <li><a href="#">click here</a></li>
       <li><a href="#">click here</a></li>
     </ul>
-  </nav>
+    <br><br>
+</div>
 
-  <article>
+<div class="main">
     <h1>Who am I</h1>
     <p>My name is Baltej Singh Malhi. I am a grade 10 student at the school of W.P Wagner, currently taking an online course of introductory computer science. I like to play sports, my favourite sport is basketball, I also enjoy watching basketball like the NBA as well. I also enjoy playing video games with my friends, my favourite video game is Call of Duty, I also play other games like Minecraft and NBA2k. I also like to spend time with my family, they are amazing people and will always have my back.</p>
-    <h1> My career plans</h1>
-    <p>My career plans. I have just seriously begun thinking about my career plans for the future. I don't know exactly what I want to be in life just yet but my plans are to start working at any regular minimum wage job that I can do. Once I graduate I don't know just yet what I want to do in university but I will figure it out, I was thinking of something to do with real estate. After that I want to save some money and create my own business.
-</p>
-  </article>
-</section>
+</div>
 
-  <footer>
+<div class="aside">
+  	<h1> My career plans</h1>
+    <p>My career plans. I have just seriously begun thinking about my career plans for the future. I don't know exactly what I want to be in life just yet but my plans are to start working at any regular minimum wage job that I can do. Once I graduate I don't know just yet what I want to do in university but I will figure it out, I was thinking of something to do with real estate. After that I want to save some money and create my own business.</p>
+    <br><br>
+</div>
+
+	<Footer>
     <blockquote cite="https://www.brainyquote.com/quotes/michael_jordan_167382">
       <!-- Date Accessed 20201120-->
     </blockquote>
@@ -105,8 +114,7 @@ footer {
       </em>
     </p>
     <p>&copy Baltej Malhi, powered by Baltej Malhi in GitHub</p>
-
-  </footer>
+	</footer>
 
 </body>
 
