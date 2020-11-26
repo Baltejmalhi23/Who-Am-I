@@ -27,11 +27,27 @@ My nationality is Canadian, I was born in Canada have lived here all my life
 ### Ethnicity
 My ethnicity comes from India, Punjab. My parents come from India Punjab.
 
+### Country
+Canada.
+
+### Language
+English and Punjabi
+
 ### Birth place
 I was born in Surrey British Columbia in Canada. I was born on December 7, 2005.
 
 ### Full name
 Baltej Singh Malhi
 
-### Culture/ Religion
-I am apart of the Punjabi culture, . My religion is Sikhism. Sikh is a beautiful religion practiced all over the world by more than 25 million adherents.
+### Culture/Religion
+I am apart of the Punjabi culture, originating from Punjab, India. My religion is Sikhism. Sikh is a beautiful religion practiced all over the world by more than 25 million adherents.
+
+### Hobbies
+I have multiple hobbies including, playing video games, playing basketball, watching t.v., and playing hockey.
+
+### Daily routine
+First thing i do when i wake up is shower and get ready for the day. Next I go downstairs have breakfast and get prepared for online school. school usually takes me up till noon, which is when i have a lunch break with my family and then start to get ready for my second and last class of the day. After school I like to play video games and hang out with my family. Finally at about 10pm is when I would usually start to get ready for bed. The cycle repeats.
+
+### Music
+
+### Life in online school
