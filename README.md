@@ -28,7 +28,7 @@ My nationality is Canadian, I was born in Canada have lived here all my life
 My ethnicity comes from India, Punjab. My parents come from India Punjab.
 
 ### Birth place
-I was born in Vancouver British Columbia in Canada. I was born on December 7, 2005.
+I was born in Surrey British Columbia in Canada. I was born on December 7, 2005.
 
 ### Full name
 Baltej Singh Malhi
