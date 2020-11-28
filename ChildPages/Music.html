@@ -1,66 +1,99 @@
 <!DOCTYPE html>
+
 <html lang="en" dir="ltr">
-  <head>
 
-    <!-- Used by keyboard -->
-    <meta charset="utf-8">
+<head>
+<title>Who am I</title>
 
-    <title>Learning HTML</title>
+<meta name="author" content="Baltej Malhi">
+<meta name="description" content="HTML Lessons">
+<meta name="keywords" content="HTML, meta data, inline CSS">
+<meta name="viewport" content="width=device-width, initial scale=1.0">
 
-    <!-- Used by Browser or Google Search-->
-    <meta name="author" content="Baltej Malhi">
-    <meta name="description" content="Learning HTML by building a simple Website">
-    <meta name="keywords" content="boilerplate, starter code, HTML, learning">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
+<style>
+* {
+box-sizing: border-box;
+}
 
-    <!-- meta http-equiv="default-style" content=""--> <!-- content matches css link exactly-->
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-    <!-- Other meta attributes to be aware of -->
 
-    <!-- meta http-equiv="refresh" content="30"-->
-    <!-- Content forces a Internet Request to refresh webpage every "time value in seconds" -->
-    <!-- Use this when refreshes are needed -->
+.header {
+  background-color: #33adff;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
 
-    <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
-    <!-- Already specified in the charset above-->
-  </head>
-  <body>
-    <header><h1>Header Title</h1></header>
-      <nav><h1>Navigation</h1></nav>
-      <aside><p>This is the aside space.</p></aside>
-      <section>
-        <h3>Section 1</h3>
-        <article>
-          <p>This is article 1 in section 1.</p>
-        </article>
-        <article>
-          <p>This is article 2 in section 1.</p>
-        </article>
-      </section>
-      <section>
-        <h3>Section 2</h3>
-        <article>
-          <p>This is article 1 in section 2.</p>
-        </article>
-        <article>
-          <p>This is article 2 in section 2.</p>
-        </article>
-      </section>
-  </body>
 
-  <footer>
+.menu {
+  background-color:#99d6ff;
+  padding:20px;
+  float:left;
+  width:30%;
+  height:auto;
+}
+
+.main {
+  background-color:#e6f5ff;
+  padding:20px;
+  float:left;
+  width:70%;
+  height:450px;
+}
+
+footer {
+  background-color: #33adff;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+
+@media screen and (max-width:800px) {
+  .menu, .main {
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <header><h2>Who am I</h2></header>
+</div>
+
+<div class="menu">
+    <ul>
+      <li><a href="#">click here</a></li>
+      <li><a href="#">click here</a></li>
+      <li><a href="#">click here</a></li>
+    </ul>
+    <br><br>
+</div>
+
+<div class="main">
+    <h1>Who am I</h1>
+    <p>My name is Baltej Singh Malhi. I am a grade 10 student at the school of W.P Wagner, currently taking an online course of introductory computer science. I like to play sports, my favourite sport is basketball, I also enjoy watching basketball like the NBA as well. I also enjoy playing video games with my friends, my favourite video game is Call of Duty, I also play other games like Minecraft and NBA2k. I also like to spend time with my family, they are amazing people and will always have my back.</p>
+</div>
+
+	<footer>
     <blockquote cite="https://www.brainyquote.com/quotes/michael_jordan_167382">
       <!-- Date Accessed 20201120-->
     </blockquote>
     <p>
-      <strong>"Some people want it to happen, some wish it would happen, other make it happen."</strong>
+      <strong>"Some people want it to happen, some wish it would happen, others make it happen."</strong>
       <em><a href="https://www.brainyquote.com/quotes/michael_jordan_167382" target="_blank">
          - Michael Jordan</a>
       </em>
     </p>
-    <p>&copy Mark Mercer, powered by MercersKitchen in GitHub</p>
+    <p>&copy Baltej Malhi, powered by Baltej Malhi in GitHub</p>
+	</footer>
 
-  </footer>
+</body>
 
 </html>
